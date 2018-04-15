@@ -8,6 +8,6 @@ function setThisWithCall(fn, thisValue, args) {
 function setThisWithApply(fn, thisValue, args) {
   return fn.apply(thisValue, args)
 }
-function returnNewFunctionOf (functionToBECopied, thisvalue) {
+function returnNewFunctionOf (functionToBECopied, thisValue) {
 
 }
