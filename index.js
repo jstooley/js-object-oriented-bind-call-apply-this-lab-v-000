@@ -3,11 +3,11 @@ function justInvoke(fn){
 }
 
 function setThisWithCall(fn, thisValue, args) {
-  return fn.call(thisValue, args)
+  return fn.call(thisValue, args);
 }
 function setThisWithApply(fn, thisValue, args) {
-  return fn.apply(thisValue, args)
+  return fn.apply(thisValue, args);
 }
 function returnNewFunctionOf (functionToBeCopied, thisValue) {
-  return functionToBeCopied.bind(thisValue)
+  return functionToBeCopied.bind(thisValue);
 }
